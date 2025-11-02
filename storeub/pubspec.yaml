@@ -1,0 +1,40 @@
+name: storeub
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.1
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  firebase_core: ^2.27.1
+  firebase_auth: ^4.18.1
+  location: ^7.0.0
+  geocoding: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: "^0.13.1"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/global/
+    - assets/images/started/
+    - assets/images/sign_in/
+    - assets/images/sign_up/
+    - assets/images/Vector_cash.png
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
